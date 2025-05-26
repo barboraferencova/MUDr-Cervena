@@ -19,3 +19,72 @@
 
 
 }
+
+/* Mobile first css */
+
+/* Nav section */
+#open-sidebar-button, #close-sidebar-button {
+    display: block;
+}
+
+#close-sidebar-button{
+    align-self: flex-end;
+    margin: 0.5rem 1rem;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: min(16em, 100%);
+    z-index: 10;
+    border-left: 1px solid beige;
+    font-weight: 500;
+    background-color: var(--white-color);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1rem;
+    transition: right 0.3s ease;
+}
+
+nav.show {
+    right: 0;
+}
+
+nav.show ~ #overlay{
+    display: block;
+}
+
+nav li, a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--primary800-dark-cayn-color);
+}
+
+nav ul {
+    width: 100%;
+    flex-direction: column;
+}
+
+nav a, .logo {
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1rem;
+  color: var(--primary500-cyan);
+}
+
+/* Nav menu button */
+.visit-medevio {
+    background-color: var(--primary500-cyan);
+    border-radius: 40PX;
+    border: 1px solid var(--primary500-cyan);
+    padding: 8px 32px;
+    color: var(--white-color);
+    text-align: center;
+}
