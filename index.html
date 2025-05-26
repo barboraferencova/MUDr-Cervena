@@ -6,8 +6,24 @@
     <title>MUDR. Červená</title>
 </head>
 <body>
+
+        <!-- Open sidebar mobile menu btn -->
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="Otevřít menu" aria-expanded="false" aria-controls="navbar">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 12H21M3 6H21M3 18H21" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+
     <header>
         <nav role="navigation" aria-label="navigační menu" class="navbar" id="navbar">
+
+        <!--Close sidebar mobile menu btn  -->
+        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="Zavřít menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18M6 6L18 18" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+
             <div class="logo">MUDR. Tereza Červená</div>
 
             <ul class="nav-menu">
@@ -20,6 +36,9 @@
 
             <a href="" class="visit-medevio" target="_blank" aria-label="Otevřít stránku Medevio v novém okně">Navštivte MEDEVIO</a>
         </nav>
+
+        <!-- Overlay pro uzavření menu při kliknutí mimo navbar -->
+        <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
     </header>
     
 </body>
