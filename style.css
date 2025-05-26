@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary500-cyan: #00C0B9;
+    --primary800-dark-cayn-color: #003A38;
+    --secondary500-blue-color: #004CBF;
+    --grey300-paragraphs-color: #727272;
+    --white-color: #fff;
+    --primary100-background-for-open-hours-section: #D8F8F7;
+    --primary300-background-for-specific-open-hours-color: #D8F8F7;
+    --zkusenosti-background-color: #307BC41A; 
+
+    --font-blue-hadings: "Jost", sans-serif;
+    --font-main: "Space Grotesk", sans-serif;
+
+
+}
