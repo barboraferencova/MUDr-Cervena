@@ -62,7 +62,8 @@ ul {
 .logo {
   font-size: 1.5rem;
   color: var(--primary500-cyan);
-  font-weight: bold;
+  font-weight: 500;
+  padding-top: 1rem;
 }
 
 .nav-menu {
@@ -82,12 +83,12 @@ ul {
 }
 
 .visit-medevio {
-  margin-top: auto;
+  margin-top: 1rem;
   background-color: var(--primary500-cyan);
   color: var(--white-color);
   padding: 0.75rem 1rem;
   border-radius: 40px;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
 }
 
