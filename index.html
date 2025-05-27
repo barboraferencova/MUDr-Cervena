@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MUDR. Červená</title>
     <link rel="stylesheet" href="style.css">
+    
+    
 
     <!-- Fonts -->       
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +15,7 @@
 </head>
 <body>
 
+    <header>
         <!-- Open sidebar mobile menu btn -->
         <button id="open-sidebar-button" onclick="openSidebar()" aria-label="Otevřít menu" aria-expanded="false" aria-controls="navbar">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,15 +23,16 @@
             </svg>
         </button>
 
-    <header>
-        <nav role="navigation" aria-label="navigační menu" class="navbar" id="navbar">
-
-        <!--Close sidebar mobile menu btn  -->
+    <!--Close sidebar mobile menu btn  -->
         <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="Zavřít menu">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M18 6L6 18M6 6L18 18" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
         </button>
+
+        <nav role="navigation" aria-label="navigační menu" class="navbar" id="navbar">
+
+        
 
             <div class="logo">MUDR. Tereza Červená</div>
 
@@ -43,8 +47,6 @@
             <a href="" class="visit-medevio" target="_blank" aria-label="Otevřít stránku Medevio v novém okně">Navštivte MEDEVIO</a>
         </nav>
 
-        <!-- Overlay pro uzavření menu při kliknutí mimo navbar -->
-        <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
     </header>
     
 
