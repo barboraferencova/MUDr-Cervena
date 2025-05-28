@@ -86,7 +86,6 @@ function closeSidebar() {
   closeSidebarBtn.style.display = "none";
 }
 
-// Spustit při načtení i při změně velikosti
 window.addEventListener("DOMContentLoaded", updateNavbar);
 window.addEventListener("resize", updateNavbar);
 
