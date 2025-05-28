@@ -38,6 +38,8 @@ ul {
 }
 
 /* Mobile menu */
+
+/* Navigace */
 .navbar {
   position: fixed;
   top: 0;
@@ -83,13 +85,16 @@ ul {
 }
 
 .visit-medevio {
-  margin-top: 1rem;
   background-color: var(--primary500-cyan);
   color: var(--white-color);
   padding: 0.75rem 1rem;
   border-radius: 40px;
   font-weight: 500;
   text-align: center;
+}
+
+.visit-medevio-nav-btn{
+  margin-top: 1rem;
 }
 
 .visit-medevio:hover {
@@ -118,6 +123,79 @@ ul {
 .navbar.show + #close-sidebar-button {
   display: block;
 }
+
+/* Experience sekce */
+
+.experience {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.experience-letf-side, .experience-right-side{
+  max-width: 60%;
+}
+
+.experience h2, h3 {
+  padding-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: var(--font-blue-hadings);
+  font-weight: 600;
+  color: var(--secondary500-blue-color);
+  font-size:2rem;
+}
+
+.experience-second-paragraph h2, h3 {
+  color: var(--secondary500-blue-color);
+  font-family: var(--font-main);
+  font-weight: 700;
+  display: inline-block;
+}
+
+.experience-second-paragraph h2{
+  font-size: 2.5rem;
+}
+
+.experience-second-paragraph h3 {
+  font-size: 1.63rem;
+  padding-left: 1rem;
+}
+
+.experience-paragraph-and-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#experience-visit-medevio{
+  margin-bottom: 2rem;
+}
+
+.experience p {
+  text-align: left;
+  font-family: var(--font-main);
+  font-weight: 400;
+}
+
+.experience-paragraph-and-btn p{
+  padding-bottom: 2rem;
+}
+
+.experience-second-paragraph p{
+  padding-bottom: 1rem;
+}
+
+.footnote{
+  font-size: 14px;
+  padding-top: 3rem;
+}
+
+
+
 
 /* Tablet menu */
 @media screen and (min-width: 768px) and (max-width: 1150px) {
@@ -152,17 +230,10 @@ ul {
     color: var(--primary800-dark-cayn-color);
   }
 
-  .visit-medevio {
-    align-self: center;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    font-size: 0.95rem;
-    border-radius: 40px;
-    background-color: var(--primary500-cyan);
-    color: var(--white-color);
-    text-decoration: none;
-    font-weight: 500;
-    position: absolute;
+  .visit-medevio-nav-btn{
+     align-self: center;
+     margin-top: 1rem;
+      position: absolute;
   }
 
   #open-sidebar-button,
