@@ -149,11 +149,17 @@ h2 {
   font-size:2rem;
 }
 
+.experience-right-side img {
+  max-width: 100%;
+  border-bottom-left-radius:40px ;
+}
+
 .experience-second-paragraph h2, h3 {
   color: var(--secondary500-blue-color);
   font-family: var(--font-main);
   font-weight: 700;
   display: inline-block;
+  padding-top: 2rem;
 }
 
 .experience-second-paragraph h2{
@@ -194,6 +200,40 @@ h2 {
   padding-top: 3rem;
 }
 
+/* Open hours section */
+.opening-hours-container {
+  position: relative;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 2rem;
+  width: fit-content;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  
+}
+
+
+.opening-hours-container h2 {
+  position: relative;
+  font-size: 1.5rem;
+  color: #0052cc;
+  margin-bottom: 1rem;
+}
+
+.hours-table {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.hours-table td {
+  padding: 0.5rem 1rem;
+  background: #e6f7ff;
+  border-radius: 8px;
+  margin: 0.3rem;
+  color: #003366;
+}
 
 
 
