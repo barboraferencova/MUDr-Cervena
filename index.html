@@ -50,7 +50,7 @@
     </header>
 
 <main>
-    <!-- Experience sekce -->
+    <!-- Experience section -->
     <section class="experience">
             
         <div class="experience-letf-side">
@@ -60,52 +60,59 @@
                 <a href="" class="visit-medevio" target="_blank" aria-label="Otevřít stránku Medevio v novém okně" id="experience-visit-medevio">Navštivte MEDEVIO</a>
             </div>
 
-            <!-- <div class="open-hours">
-  
-            </div> -->
-            <div class="opening-hours-container">
-                    <h2>Ordinační Doba</h2>
-                    <table class="hours-table">
-                        <thead>
-                            <tr>
-                                <th colspan="2"></th>
-                                <th>8:00</th>
-                                <th>10:00</th>
-                                <th>12:00</th>
-                                <th>14:00</th>
-                                <th>16:00</th>
-                                <th>18:00</th>
-                            </tr>
-                        </thead>
-                    <tbody>
-                        <tr>
-                            <td class="open-hours-day">Pondělí</td>
-                            <td colspan="1.5"></td>
-                            <td colspan="3">8:30–12:00</td>
-                            <td colspan="3">12:30–16:00</td>
-                        </tr>
-                        <tr>
-                            <td class="open-hours-day">Úterý</td>
-                            <td colspan="3.5">7:00–13:00</td>
-                        </tr>
-                        <tr>
-                            <td class="open-hours-day">Středa</td>
-                            <td colspan="3.5"></td>
-                            <td colspan="4">13:00–18:00</td>
-                        </tr>
-                        <tr>
-                            <td class="open-hours-day">Čtvrtek</td>
-                            <td colspan="0.5"></td>
-                            <td>8:30–12:00</td>
-                            <td>12:30–16:00</td>
-                        </tr>
-                        <tr>
-                            <td class="open-hours-day">Pátek</td>
-                            <td colspan="2">7:00–13:00</td>
-                        </tr>
-                    </tbody>
-                    </table>
-                </div>
+        <!-- Open hours section -->
+            <div class="schedule">
+            <h2>Ordinační Doba</h2>
+            <div class="grid">
+                
+                <!-- Time row -->
+                <div></div> <!-- Emty slot - used for a day -->
+                <div class="invisible"></div> <!-- 7:00 -->
+                <div class="invisible"></div> <!-- 7:30 -->
+                <div class="open-hours-time">8:00</div>
+                <div class="invisible"></div> <!-- 8:30 -->
+                <div class="invisible"></div> <!--9:00-->
+                <div class="invisible"></div> <!--9:30-->
+                <div class="open-hours-time">10:00</div>
+                <div class="invisible"></div> <!--10:30-->
+                <div class="invisible"></div> <!--11:00-->
+                <div class="invisible"></div> <!--11:30-->
+                <div class="open-hours-time">12:00</div>
+                <div class="invisible"></div> <!-- 12:30 -->
+                <div class="invisible"></div> <!-- 13:00 -->
+                <div class="invisible"></div> <!--13:30-->
+                <div class="open-hours-time">14:00</div>
+                <div class="invisible"></div> <!--14:30-->
+                <div class="invisible"></div> <!--15:00-->
+                <div class="invisible"></div> <!--15:30-->
+                <div class="open-hours-time">16:00</div>
+                <div class="invisible"></div> <!--16:30-->
+                <div class="invisible"></div> <!--17:00-->
+                <div class="open-hours-time">18:00</div>
+
+                <!-- Monday + time slots -->
+                <div class="open-hours-day day-mon" >Pondělí</div>
+                <div class="slot slot-mon-mor">8:30-12:00</div>
+                <div class="slot slot-mon-aft">12:30-16:00</div>
+
+                <!-- Tuesday + time slots -->
+                <div class="open-hours-day day-tue">Úterý</div>
+                <div class="slot slot-tue">7:00-13:00</div>
+
+                <!-- Wednesday + time slots -->
+                <div class="open-hours-day day-wed">Středa</div>
+                <div class="slot slot-wed">13:00-18:00</div>
+
+                <!-- Thursday + time slots -->
+                <div class="open-hours-day day-thu">Čtvrtek</div>
+                <div class="slot slot-thu-mor">8:30-12:00</div>
+                <div class="slot slot-thu-aft">12:30-16:00</div>
+
+                <!-- Friday + time slots -->
+                <div class="open-hours-day day-fri">Pátek</div>
+                <div class="slot slot-fri">7:00-13:00</div>
+            </div>
+            </div>
 
         </div>
 

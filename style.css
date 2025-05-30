@@ -14,8 +14,8 @@
     --primary300-background-for-specific-open-hours-color: #D8F8F7;
     --zkusenosti-background-color: #307BC41A; 
 
-    --font-blue-hadings: "Jost", sans-serif;
-    --font-main: "Space Grotesk", sans-serif;
+    --font-blue-hadings-jost: "Jost", sans-serif;
+    --font-main-space: "Space Grotesk", sans-serif;
 
 
 }
@@ -201,39 +201,132 @@ h2 {
 }
 
 /* Open hours section */
-.opening-hours-container {
-  position: relative;
-  background: #ffffff;
-  border-radius: 30px;
+
+
+.schedule {
+  background: var(--white-color);
   padding: 2rem;
-  width: fit-content;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-  
+  border-radius: 2rem;
+
 }
 
+.open-hours-time{
+  font-family: var(--font-main-space);
+  font-size:0.8rem ;
+  font-weight: 700;
+  color: var(--grey300-paragraphs-color);
+  gap: 30px;
+}
 
-.opening-hours-container h2 {
-  position: relative;
+.schedule h2 {
+  color: var(--secondary500-blue-color);
+  font-weight: 600;
   font-size: 1.5rem;
-  color: #0052cc;
+  font-family: var(--font-blue-hadings-jost);
   margin-bottom: 1rem;
 }
 
-.hours-table {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 1rem;
+
+.grid {
+  display: grid;
+  grid-template-columns:            
+    repeat(23, 0.5fr);  
+  align-items: center;
 }
 
-.hours-table td {
-  padding: 0.5rem 1rem;
-  background: #e6f7ff;
-  border-radius: 8px;
-  margin: 0.3rem;
-  color: #003366;
+.grid > div {
+  padding: 0.5rem;
 }
+
+.invisible {
+  visibility: hidden;
+  height: 0;
+}
+
+.slot {
+  background: var(--primary300-background-for-specific-open-hours-color);
+  text-align: center;
+  color: var(--secondary500-blue-color);
+  font-weight: 700;
+  font-family: var(--font-main-space);
+  font-size: 0.8rem;
+  border-radius: 32px;
+  padding: 8px 32px;
+}
+
+.open-hours-day {
+  color: var(--secondary500-blue-color);
+  font-weight: 500;
+  font-family: var(--font-blue-hadings-jost);
+  font-size: 1.12rem;
+  padding-right: 1rem;
+}
+
+.invisible {
+  visibility: hidden;
+  height: 0;
+}
+
+/* Days */
+
+/* Monday */
+.day-mon {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.slot-mon-mor {
+  grid-column: 5 / 12;
+}
+
+.slot-mon-aft {
+  grid-column: 14 / 20;
+}
+
+/* Tuesday */
+.day-tue{
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.slot-tue {
+  grid-column: 2 / 15;
+}
+
+/* Wednesday */
+.day-wed{
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.slot-wed {
+  grid-column: 15/ 24;
+  grid-row: 4/5;
+}
+
+/* Thursday */
+.day-thu{
+ grid-column: 1/2;
+ grid-row: 5/6;
+}
+.slot-thu-mor {
+  grid-column:  6/ 12;
+  grid-row: 5/6;
+}
+
+.slot-thu-aft {
+  grid-column: 14 / 20;
+  grid-row: 5/6;
+}
+
+/* Friday */
+.day-fri {
+  grid-column: 1/2;
+}
+.slot-fri {
+  grid-column: 2 / 15;
+  grid-row: 6/7;
+}
+
 
 
 
