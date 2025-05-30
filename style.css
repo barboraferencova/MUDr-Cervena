@@ -207,6 +207,7 @@ h2 {
   background: var(--white-color);
   padding: 2rem;
   border-radius: 2rem;
+  max-width: 200px;
 
 }
 
