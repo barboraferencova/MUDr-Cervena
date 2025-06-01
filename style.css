@@ -447,6 +447,130 @@ h2 {
 .card .arrow:hover {
   background: #00a9a0;
 }
+/* Carousel section */
+.team-carousel {
+  padding: 3rem 1.5rem;
+  background-color: white;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--primary500-cyan);
+  cursor: pointer;
+  padding: 1rem;
+  z-index: 2;
+}
+
+
+
+.carousel-track {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-slide {
+  display: none;
+  flex: 1 0 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.carousel-slide.active {
+  display: flex;
+}
+
+.slide-left,
+.slide-right {
+  flex: 1;
+}
+
+.slide-left .role {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--font-main-space);
+  color: var(--news-dark-text-color);
+  margin: 0;
+}
+
+.slide-left .name {
+  font-family: var(--font-blue-hadings-jost);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary500-cyan);
+  margin: 0.3rem 0 0;
+}
+
+.slide-left {
+  padding-left: 2rem;
+}
+
+.slide-right {
+  padding-right: 2rem;
+}
+
+.slide-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-image img {
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
+}
+
+.slide-right p {
+  font-size: 1rem;
+  font-family: var(--font-main-space);
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--news-dark-text-color);
+}
+
+.carousel-link {
+  color:var(--primary500-cyan);
+  font-weight: 700;
+}
+
+.carousel-icon {
+   padding-left: 0.4rem;
+}
+.carousel-icon svg {
+  width: 1rem;
+  height: 1rem;
+ align-items: center;
+ padding-top: 6px;
+}
+
+
+/* Carousel mobile */
+@media (max-width: 768px) {
+  .carousel-slide {
+    flex-direction: column;
+    text-align: center;
+    
+  }
+.slide-left, .slide-right {
+  padding: 0;
+}
+
+  
+}
 
 /* Pricing section */
 .pricing-section {
@@ -455,11 +579,12 @@ h2 {
  
   overflow: hidden;
   display: flex;
+  width: 100%;
 
-  max-height: 200px; /* výška mobilní sekce */
+  max-height: 200px; 
 }
 
-/* Levý kruh */
+/* Left circle */
 .circle-left {
   position:relative;
 }
@@ -498,7 +623,7 @@ h2 {
   margin: 0.1rem auto 0;
 }
 
-/* Pravý kruh */
+/* Right circle */
 .circle-right {
   position: absolute;
  
@@ -627,17 +752,9 @@ h2 {
    background-color: var(--secondary500-blue-color);
 }
 
+/* Footer */
 
-
-
-
-
-
-
-
-
-
-
+/* Footer konec */
 
 @media (min-width: 768px) {
   .schedule {
