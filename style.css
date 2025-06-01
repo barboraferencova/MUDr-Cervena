@@ -623,6 +623,10 @@ h2 {
   align-items: center;
 }
 
+.news-button:hover {
+   background-color: var(--secondary500-blue-color);
+}
+
 
 
 
