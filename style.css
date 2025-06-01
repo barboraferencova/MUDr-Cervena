@@ -604,17 +604,25 @@ h2 {
 
 .news-button-wrapper {
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .news-button {
-  background-color: #00b2a9;
-  color: white;
-  padding: 0.7rem 1.5rem;
-  border-radius: 30px;
+  background-color:var(--primary500-cyan);
+  color: var(--white-color);
+  padding: 8px 32px;
+  border-radius: 40px;
   text-decoration: none;
   font-weight: 500;
-  justify-self: center;
+  width: 151px;
+  height: 52px;
+  font-size: 16px;
+  font-family: var(--font-blue-hadings-jost);
+  display: flex;
+  align-items: center;
 }
+
 
 
 
