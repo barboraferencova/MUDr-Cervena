@@ -446,6 +446,78 @@ h2 {
   background: #00a9a0;
 }
 
+/* Pricing section */
+.pricing-section {
+  position: relative;
+  background-color: var(--primary500-cyan);
+  padding: 4rem 1rem;
+  overflow: hidden;
+  display: flex;
+
+  height: 300px; /* výška mobilní sekce */
+}
+
+/* Levý kruh */
+.circle-left {
+  /* position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px; */
+}
+
+.circle-svg-left {
+  width: 100%;
+  height: 100%;
+}
+
+.circle-text {
+   position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+  z-index: 1;
+}
+
+.circle-text h3 {
+  color: var(--white-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.white-heading-underline {
+  width: 50px;
+  height: 3px;
+  background-color: var(--white-color);
+  margin: 0.5rem auto 0;
+}
+
+/* Pravý kruh */
+.circle-right {
+  position: absolute;
+  right: -50px;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.circle-svg-right {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) {
   .schedule {
@@ -490,6 +562,45 @@ h2 {
   .arrow-icon {
     width: 22px;
   }
+
+  /* Pricing section */
+  .pricing-section {
+    height: 400px;
+    justify-content: flex-start;
+    padding-left: 100px;
+  }
+
+  .circle-left {
+    top: 50px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    transform: none;
+  }
+
+  .circle-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .circle-text h3 {
+    font-size: 2.5rem;
+  }
+
+  .white-heading-underline {
+    width: 60px;
+  }
+
+  .circle-right {
+    right: 100px;
+    bottom: 50px;
+    width: 200px;
+    height: 200px;
+  }
+
+
+
 }
 
 
