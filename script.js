@@ -1,5 +1,5 @@
 
-// Navbar sekce
+// Navbar section
 const navbar = document.getElementById("navbar");
 const openSidebarBtn = document.getElementById("open-sidebar-button");
 const closeSidebarBtn = document.getElementById("close-sidebar-button");
@@ -49,7 +49,7 @@ function closeSidebar() {
 window.addEventListener("DOMContentLoaded", updateNavbar);
 window.addEventListener("resize", updateNavbar);
 
-// Carousel sekce
+// Carousel section
 const slides = document.querySelectorAll(".carousel-slide");
   const leftArrow = document.querySelector(".arrow-left");
   const rightArrow = document.querySelector(".arrow-right");
