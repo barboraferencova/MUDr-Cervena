@@ -133,7 +133,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+  background-color: #E9FFFE; 
 }
 
 .experience-letf-side, .experience-right-side{
@@ -145,7 +145,7 @@ ul {
 }
 
 h2 {
-  font-family: var(--font-blue-hadings);
+  font-family: var(--font-blue-hadings-jost);
   font-weight: 600;
   color: var(--secondary500-blue-color);
   font-size:2rem;
@@ -154,6 +154,10 @@ h2 {
 .experience-right-side img {
   max-width: 100%;
   border-bottom-left-radius:40px ;
+  object-fit: cover;
+  display: block;
+  width: 477px;
+  height: 448px;
 }
 
 .experience-second-paragraph h2, h3 {
@@ -201,6 +205,8 @@ h2 {
   font-size: 14px;
   padding-top: 3rem;
 }
+
+
 
 /* Open hours section */
 
@@ -337,6 +343,43 @@ h2 {
 .slot-fri {
   grid-column: 2 / 15;
   grid-row: 6/7;
+}
+/* Desktop */
+@media (min-width: 800px) {
+  .experience {
+    flex-direction: row;
+    padding: 1rem 1rem;
+    margin: 0;
+  }
+
+  .experience-paragraph-and-btn{
+    justify-content: center;
+    padding: 1rem 8rem;
+    text-align: center;
+  }
+
+
+  .experience-paragraph-and-btn p {
+    padding-left: 20px;
+  }
+
+  .experience-letf-side, .experience-right-side {
+    width: 50%;
+  }
+
+
+  .schedule {
+    height: 548px;
+    width: 578;
+    border-top-right-radius:120px ; 
+  }
+
+  .experience-right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
 
 /* Service section */
@@ -1000,8 +1043,4 @@ h2 {
     margin: 0;
   }
 
-  .visit-medevio {
-    margin-top: 0;
-    margin-left: auto;
-  }
 }
