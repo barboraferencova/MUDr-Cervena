@@ -144,7 +144,7 @@ ul {
   padding-bottom: 1.5rem;
 }
 
-h2 {
+.experience h2 {
   font-family: var(--font-blue-hadings-jost);
   font-weight: 600;
   color: var(--secondary500-blue-color);
@@ -162,7 +162,7 @@ h2 {
 
 .experience-second-paragraph h2, h3 {
   color: var(--secondary500-blue-color);
-  font-family: var(--font-main);
+  font-family: var(--font-main-space);
   font-weight: 700;
   display: inline-block;
   padding-top: 2rem;
@@ -191,6 +191,9 @@ h2 {
   text-align: left;
   font-family: var(--font-main);
   font-weight: 400;
+  color: var(--grey300-paragraphs-color);
+  line-height: 28px;
+  letter-spacing: 0.15%;
 }
 
 .experience-paragraph-and-btn p{
@@ -350,23 +353,34 @@ h2 {
     flex-direction: row;
     padding: 1rem 1rem;
     margin: 0;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .experience-paragraph-and-btn{
-    justify-content: center;
-    padding: 1rem 8rem;
-    text-align: center;
+  justify-content: center; 
+  text-align: left;
+  padding-bottom: 2rem;
   }
 
-
-  .experience-paragraph-and-btn p {
-    padding-left: 20px;
-  }
 
   .experience-letf-side, .experience-right-side {
-    width: 50%;
+    width: 40%;
+    padding: 2rem;
   }
 
+  .experience-paragraph-and-btn h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .experience-right-side h2, h3 {
+    line-height: 100%;
+  }
+
+  .experience-right-side h2 {
+    font-size: 48px;
+  }
 
   .schedule {
     height: 548px;
@@ -379,6 +393,10 @@ h2 {
     flex-direction: column;
     align-items: center;
   }
+  .experience-right-side img {
+  margin-bottom: 2rem;
+}
+  
 
 }
 
@@ -918,7 +936,7 @@ h2 {
   }
 
   .grid > div {
-  padding: 0.5rem;
+  padding: 0.4rem;
 }
 
 /* Service section */
