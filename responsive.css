@@ -44,12 +44,8 @@
 /* Nav menu */
   .navbar {
     position: static;
-    display: flex;
-    flex-direction: column;
     align-items: stretch;
-    background-color: var(--white-color);
     padding: 1.5rem 2rem;
-    gap: 1rem;
     width: 100%;
   }
 
@@ -60,21 +56,14 @@
   }
 
   .nav-menu {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
     margin: 1rem 0;
   }
 
-  .nav-menu li a {
-    font-size: 1rem;
-    color: var(--primary800-dark-cayn-color);
-  }
-
   .visit-medevio-nav-btn{
      align-self: center;
-     margin-top: 1rem;
       position: absolute;
   }
 
@@ -250,15 +239,12 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 1.5rem 3rem;
     gap: 2rem;
-    background-color: var(--white-color);
   }
 
   .logo {
-    font-size: 1.5rem;
     white-space: nowrap;
     padding-top: 0;
   }
