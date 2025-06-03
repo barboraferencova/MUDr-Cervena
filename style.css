@@ -651,7 +651,7 @@ ul {
 
 .white-heading-underline {
   width: 60px;
-  height: 4px;
+  height: 3px;
   background-color: var(--white-color);
   margin: 0.1rem 0 0 0.1rem ;
   padding-left: 10px;
@@ -688,7 +688,7 @@ ul {
   margin-bottom: 1rem;
   position: relative;
   display: inline-block;
-  padding-left: 10rem;
+  left: 60px;
 }
 
 .section-title::after {
@@ -707,7 +707,7 @@ ul {
 }
 
 .news-card {
-  background: white;
+  background: var(--white-color);
   border-radius: 12px;
   max-width: 300px;
   padding: 1rem;
