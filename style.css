@@ -606,8 +606,6 @@ ul {
 }
 
 
-
-
 /* Pricing section */
 .pricing-section {
   position: relative;
@@ -616,7 +614,6 @@ ul {
   overflow: hidden;
   display: flex;
   width: 100%;
-
   max-height: 200px; 
 }
 
@@ -653,10 +650,11 @@ ul {
 }
 
 .white-heading-underline {
-  width: 105px;
+  width: 60px;
   height: 4px;
   background-color: var(--white-color);
-  margin: 0.1rem auto 0;
+  margin: 0.1rem 0 0 0.1rem ;
+  padding-left: 10px;
 }
 
 /* Right circle */

@@ -3,6 +3,10 @@
   .footer-section::before, .footer-section::after {
     display: none;
   }
+
+  .circle-svg-left{
+  visibility: hidden;
+}
 }
 
                                             /* Tablet and screen bigger than 576 */
@@ -192,6 +196,21 @@ font-size: 1.3rem;
   margin-top: 0;
  }
 
+ /* Pricing section */
+ .circle-svg-left{
+  left: 10%;
+ }
+
+ .circle-svg-right {
+  top: 25%;
+  width: 300px;
+ }
+
+ .circle-text {
+  left: 66%;
+  top: 20%;
+ }
+
 
 /* Footer section */
 .footer-section {
@@ -326,6 +345,14 @@ font-size: 1.3rem;
 .slide-image img {
   max-width: 490px;
   margin-top: 29px;
+}
+
+/* Pricing section */
+.circle-svg-right {
+  width: 450px;
+  height: 450px;
+  right: -90px;
+  top: 10px;
 }
 }
 
