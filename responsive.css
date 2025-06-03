@@ -138,8 +138,7 @@
 
 /* Open hours section */
   .schedule {
-    height: 548px;
-    width: 578;
+    height: 450px;
     border-top-right-radius:120px ; 
     padding: 2rem 0;
   }
@@ -257,7 +256,39 @@
     margin: 0;
   }
 
+  /* Experience section */
+  .experience-letf-side, .experience-right-side {
+    width: 35%;
+    padding: 0.5rem;
+    padding-top: 3%; 
+  }
+
+  .experience-second-paragraph {
+     padding-left: 15%; 
+  }
 }
+
+@media screen and (min-width: 1500px) {
+
+  /* Experience sssection */
+  .experience-letf-side h2, .experience-paragraph-and-btn p { 
+    padding-right: 15%;
+  }
+
+   #experience-visit-medevio {
+    margin-right: 15%;
+   }
+
+  .experience-second-paragraph p {
+    padding-right:10%;
+  }
+
+
+  
+
+}
+
+
 
 /* Carousel mobile */
 @media (max-width: 768px) {
