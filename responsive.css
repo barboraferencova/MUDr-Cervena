@@ -159,30 +159,37 @@
   }
 
 
-      .services-section h2 {
-        font-size: 2rem;
-      }
-      .card h3 {
-    font-size: 1.3rem;
-  }
+.services-section h2 {
+  font-size: 2rem;
+}
 
-  .card-header .services-icon {
-    width: 3em;
-    height: 3em;
-  }
+.card h3 {
+font-size: 1.3rem;
+}
 
-    .card .arrow {
-    width: 76px;
-    height: 60px;
-  }
+.card-header .services-icon {
+  width: 3em;
+  height: 3em;
+}
 
-  .arrow-icon {
-    width: 22px;
-  }
+  .card .arrow {
+  width: 76px;
+  height: 60px;
+}
+
+.arrow-icon {
+  width: 22px;
+}
+
+/* Carousel section */
+.slide-right p {
+  line-height: 30px;
+}
 
   /* Pricing section */
  .pricing-section {
   max-height: 270px;
+  margin-top: 0;
  }
 
 
@@ -228,6 +235,20 @@
     height: 580px;
     right: 2px;
   }
+
+  /* Carousel section */
+.arrow-left {
+  padding-right: 3rem ;
+}
+
+.arrow-right {
+  padding-left: 3rem;
+}
+
+.carousel-link {
+  font-size: 1.5rem;
+}
+
 }
 
 @media (min-width: 992px) and (max-width:1150px) { 
@@ -294,6 +315,17 @@
 
   .services-section::before{
   height: 30%;
+}
+
+/* Carousel section*/
+.carousel-container {
+  height: 700px;
+  display: flex;
+}
+
+.slide-image img {
+  max-width: 490px;
+  margin-top: 29px;
 }
 }
 

@@ -460,6 +460,7 @@ ul {
 /* Carousel section */
 .team-carousel {
   padding: 3rem 1.5rem;
+  padding-bottom: 0;
   background-color: var(--white-color);
   position: relative;
   z-index: 10;
@@ -504,16 +505,20 @@ ul {
   margin: 0 auto;
 }
 
-.arrow {
-  background: none;
+
+.arrow-right, .arrow-left {
   border: none;
-  font-size: 2rem;
   color: var(--primary500-cyan);
-  cursor: pointer;
-  padding: 1rem;
-  z-index: 2;
+  background-color: var(--white-color);
 }
 
+.arrow-left {
+  padding-left: 20px;
+}
+
+.arrow-right {
+  padding-right: 20px;
+}
 
 
 .carousel-track {
@@ -581,8 +586,8 @@ ul {
   font-size: 1rem;
   font-family: var(--font-main-space);
   font-weight: 400;
-  line-height: 30px;
   color: var(--news-dark-text-color);
+  padding-bottom: 30px;
 }
 
 .carousel-link {
@@ -607,7 +612,7 @@ ul {
 .pricing-section {
   position: relative;
   background-color: var(--primary500-cyan);
- 
+  margin-top: 20px;
   overflow: hidden;
   display: flex;
   width: 100%;
