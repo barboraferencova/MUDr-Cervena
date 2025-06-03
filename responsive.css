@@ -152,14 +152,12 @@
 }
 
 /* Service section */
-.services {
-        grid-template-columns: repeat(3, 1fr);
-        padding: 2rem;
-      }
 
-      .services-section {
-        padding: 4rem 2rem 0;
-      }
+
+.services-section {
+ padding: 4rem 2rem 0;
+  }
+
 
       .services-section h2 {
         font-size: 2rem;
@@ -203,6 +201,16 @@
                                         /* Desktop bigger than 992px  */
 @media (min-width: 992px) {
 
+/* Services section */
+.services {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2rem;
+      }
+
+.services-section::before{
+  height: 20%;
+}
+   
 /* Footer */
 .footer-section {
   height: 250px;
@@ -221,6 +229,13 @@
     right: 2px;
   }
 }
+
+@media (min-width: 992px) and (max-width:1150px) { 
+.services-section::before{
+  height: 35%;
+}
+}
+
 
                                         /* Desktop menu screens bigger than 1151px*/
 @media screen and (min-width: 1151px) {
@@ -266,6 +281,20 @@
   .experience-second-paragraph {
      padding-left: 15%; 
   }
+
+  /* Services section */
+
+  .services {
+    max-width: 90%;
+    margin: auto;
+  }
+  .card {
+    width: 344px;
+  }
+
+  .services-section::before{
+  height: 30%;
+}
 }
 
 @media screen and (min-width: 1500px) {
@@ -283,7 +312,13 @@
     padding-right:10%;
   }
 
-
+  /* Services section */
+  .card {
+    width: 444PX;
+    height: 288px;
+  }
+ 
+  
   
 
 }

@@ -349,13 +349,13 @@ ul {
 /* Service section */
   .services-section {
       padding: 2rem 1rem;
-      background: #fff;
-      color: #fff;
+      background: var(--white-color);
       position: relative;
     }
 
     .services-section h2 {
-  color: white;
+  color: var(--white-color);
+  font-family: var(--font-blue-hadings-jost);
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0 0 1.5rem 0;
@@ -371,7 +371,7 @@ ul {
   left: 0;
   height: 13%;
   width: 100%;
-  background: #00c1b5;
+  background: var(--primary500-cyan);
   z-index: 0;
 }
 
@@ -383,8 +383,8 @@ ul {
     }
 
     .card {
-      background: #ffffff;
-      color: #003087;
+      background: var(--white-color);
+      color: var(--secondary500-blue-color);
      padding: 1rem 0 0 1rem;
       border-radius: 16px;
       /* box-shadow: 0px 3.42px 17.9px 0.82px rgba(48, 123, 196, 0.1); */
@@ -411,17 +411,20 @@ ul {
 
     .card.highlight {
       background: linear-gradient(135deg, #EEEAF7 15%, #00C0B9 90%);
-    }
+    } 
 
     .card h3 {
       margin: 0 0 0.5rem 0;
       font-size: 1.2rem;
       padding-right: 1rem;
+      font-family: var(--font-blue-hadings-jost);
+  
     }
 
     .card p {
       font-size: 14px;
-      color: #003A38;
+      color: var(--primary800-dark-cayn-color);
+      font-family: var(--font-main-space);
       margin-bottom: 2rem;
       padding-right: 1rem;
       font-size: 14px;
@@ -431,7 +434,7 @@ ul {
 
    .card .arrow {
   align-self: flex-end;
-  background: #00C0B9;
+  background: var(--primary500-cyan);
   border-radius: 8px;
   width: 56px;
   height: 40px;
@@ -447,7 +450,7 @@ ul {
 .arrow-icon {
   width: 31px;
   height: 22px;
-  fill: white;
+  fill: var(--white-color);
   display: block;
 }
 
@@ -457,7 +460,7 @@ ul {
 /* Carousel section */
 .team-carousel {
   padding: 3rem 1.5rem;
-  background-color: white;
+  background-color: var(--white-color);
   position: relative;
   z-index: 10;
 }
