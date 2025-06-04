@@ -11,6 +11,7 @@ function updateNavbar() {
     // Desktop
     navbar.classList.remove("show");
     navbar.removeAttribute("inert");
+    navbar.removeAttribute("aria-hidden");
     openSidebarBtn.style.display = "none";
     closeSidebarBtn.style.display = "none";
 
@@ -18,6 +19,7 @@ function updateNavbar() {
     // Mobil
     navbar.classList.remove("show");
     navbar.setAttribute("inert", "");
+    navbar.setAttribute("aria-hidden", "true");
     openSidebarBtn.style.display = "block";
     closeSidebarBtn.style.display = "none";
   }
