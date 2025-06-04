@@ -299,7 +299,7 @@ padding-bottom: 10px;
   padding-bottom: 2rem;
   }
 
-  .experience-left-side, .experience-right-side {
+  .experience-column {
     width: 40%;
     padding: 2rem;
     z-index: 1;
@@ -324,7 +324,7 @@ padding-bottom: 10px;
     align-items: center;
   }
 
-    .experience-left-side, .experience-right-side {
+  .experience-column {
     width: 35%;
     padding: 0.5rem;
     padding-top: 3%; 
@@ -500,7 +500,7 @@ padding-bottom: 10px;
 @media screen and (min-width: 1500px) {
 
   /* Experience section */
-  .experience-left-side, .experience-right-side{
+  .experience-column{
     max-width: fit-content;
   }
   .experience-left-side h2, .experience-paragraph-and-btn p { 
@@ -596,9 +596,6 @@ padding-bottom: 10px;
     min-height: 350px;
    
   }
-  
-
- 
 
 }
 

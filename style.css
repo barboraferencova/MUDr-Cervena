@@ -133,7 +133,7 @@ ul {
 }
 
 
-.experience-left-side, .experience-right-side{
+.experience-column{
   max-width: 60%;
   display: flex;
   flex-direction: column;
