@@ -472,7 +472,7 @@ content: '';
   display: flex;
   align-items: center;
   justify-content: center;
-   box-shadow: 5.13px 3.42px 59.8px 6.83px rgba(48, 123, 196, 0.09);
+  box-shadow: 5.13px 3.42px 59.8px 6.83px rgba(48, 123, 196, 0.09);
   cursor: pointer;
   transition: background 0.2s ease;
   border-radius: 8px 0 16px 0;
@@ -541,6 +541,11 @@ content: '';
   border: none;
   color: var(--primary500-cyan);
   background-color: var(--white-color);
+}
+
+.arrow-right:hover svg, .arrow-left:hover svg{
+  cursor: pointer;
+  fill: var(--primary500-cyan);
 }
 
 .arrow-left {
@@ -662,7 +667,7 @@ content: '';
 
 .pricing-circle-text {
   position: absolute;
-  top: 35px;
+  top: 40px;
   left: 30%;
   transform: translate(-50%, -50%);
   text-align: center; 
