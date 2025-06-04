@@ -530,6 +530,9 @@ left: 37%;
 }
 
 /* Services section */
+.services {
+  max-width: 1600px;
+}
 .card {
   height: 300px;
 }
