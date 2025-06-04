@@ -1,7 +1,6 @@
                                                     /* Mini mobile under 320px */
 @media (max-width: 580px) {
 
-
   .circle-svg-right{
   visibility: hidden;
 }
@@ -68,9 +67,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1150px) {
  
-/* Nav menu */
-
-
   /* Experience */
   .schedule {
     max-width: 450px;
@@ -81,15 +77,11 @@
                                         /* Only desktop bigger than 800px */
 @media (min-width: 800px) {
 
-
-
 /* Service section */
-
 
 .services-section {
  padding: 4rem 2rem;
   }
-
 
 .services-section h2 {
   font-size: 2rem;
@@ -104,14 +96,15 @@ font-size: 1.3rem;
   height: 3em;
 }
 
-  .card .arrow {
-  width: 76px;
-  height: 60px;
+.card .arrow {
+width: 76px;
+height: 60px;
 }
 
 .arrow-icon {
   width: 22px;
 }
+
 /* Services section svg */
 .services-section::after {
    background-image: 
@@ -136,30 +129,30 @@ padding-bottom: 10px;
   line-height: 30px;
 }
 
-  /* Pricing section */
- .pricing-section {
-  max-height: 300px;
-  margin-top: 0;
- }
+/* Pricing section */
+.pricing-section {
+max-height: 300px;
+margin-top: 0;
+}
 
- .circle-svg-left{
-  left: 10%;
- }
+.circle-svg-left{
+left: 10%;
+}
 
- .circle-svg-right {
-  top: 25%;
-  width: 300px;
- }
+.circle-svg-right {
+top: 25%;
+width: 300px;
+}
 
- .circle-text {
-  left: 66%;
-  top: 20%;
- }
+.pricing-circle-text {
+left: 66%;
+top: 20%;
+}
 
- /* News section */
- .section-title{
-    left: 200px;
-  }
+/* News section */
+.section-title{
+  left: 200px;
+}
 
 
 /* Footer section */
@@ -176,9 +169,8 @@ padding-bottom: 10px;
 
                                         /* Desktop bigger than 992px  */
 @media (min-width: 992px) {
-
   
-  /* Carousel section */
+/* Carousel section */
 .arrow-left {
   padding-right: 3rem ;
 }
@@ -188,8 +180,9 @@ padding-bottom: 10px;
 }
 
 .carousel-link {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
+
 /* Green circle */
 .team-carousel::before {
   width: 300px;
@@ -197,6 +190,7 @@ padding-bottom: 10px;
   top: 1%;
   right: 26%;
 }
+
 /* Blue circle */
 .team-carousel::after {
   width: 350px;
@@ -204,11 +198,12 @@ padding-bottom: 10px;
   top: 30%;
   left: 14%;
 }
+
 /* Services section */
 .services {
-        grid-template-columns: repeat(3, 1fr);
-        padding: 2rem;
-      }
+grid-template-columns: repeat(3, 1fr);
+padding: 2rem;
+}
 
 .services-section::before{
   height: 20%;
@@ -223,43 +218,37 @@ padding-bottom: 10px;
   font-weight: 800;
 }
   
-  .footer-section::before {
-    width: 250px;
-    height: 200px;
-    left: 150px;
-   
-  }
-
-  .footer-section::after {
-   width: 250px;
-    height: 250px;
-    right: 2px;
-    top: 0px;
-  }
-
-  /* Services section */
-  .services-section::before{
-    max-height: 300px;
-  }
-  .services-section::after {
-  background-position: left 20px top 50px, right -40px top 20px;
-  background-size: 300px auto, 400px auto;
-  }
-
-  .services-text{
-  top: 50px;
-  left: 280px;
+.footer-section::before {
+  width: 250px;
+  height: 200px;
+  left: 150px;
+  
 }
 
-
+.footer-section::after {
+  width: 250px;
+  height: 250px;
+  right: 2px;
+  top: 0px;
 }
 
+/* Services section */
+.services-section::before{
+  max-height: 300px;
+}
+.services-section::after {
+background-position: left 20px top 50px, right -40px top 20px;
+background-size: 300px auto, 400px auto;
+}
 
+.services-text{
+top: 50px;
+left: 280px;
+}
 
+}
                                         /* Desktop menu screens bigger than 1151px*/
 @media screen and (min-width: 1151px) {
-
-
 
 /* Nav menu */
   #open-sidebar-button,
@@ -267,83 +256,83 @@ padding-bottom: 10px;
     display: none;
   }
 
-  .navbar {
-    position: static;
-    height: auto;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin: 0 auto;
-    padding: 1.5rem 3rem;
-    gap: 2rem;
-  }
+.navbar {
+  position: static;
+  height: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 3rem;
+  gap: 2rem;
+}
 
-  .logo {
-    white-space: nowrap;
-    padding-top: 0;
-  }
+.logo {
+  white-space: nowrap;
+  padding-top: 0;
+}
 
-  .nav-menu {
-    flex-direction: row;
-    flex: 1;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0;
-  }
+.nav-menu {
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+}
 
 /* Experience section */
-  .experience {
-    flex-direction: row;
-    padding: 2rem 1rem;
-    margin: 0;
-    justify-content: center;
-    align-items: flex-start;
-    position: relative;
-  }
+.experience {
+  flex-direction: row;
+  padding: 2rem 1rem;
+  margin: 0;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
 
-  .experience-paragraph-and-btn{
-  justify-content: center; 
-  text-align: left;
-  padding-bottom: 2rem;
-  }
+.experience-paragraph-and-btn{
+justify-content: center; 
+text-align: left;
+padding-bottom: 2rem;
+}
 
-  .experience-column {
-    width: 40%;
-    padding: 2rem;
-    z-index: 1;
-  }
+.experience-column {
+  width: 40%;
+  padding: 2rem;
+  z-index: 1;
+}
 
-  .experience-paragraph-and-btn h2 {
-    font-size: 38px;
-    line-height: 48px;
-  }
+.experience-paragraph-and-btn h2 {
+  font-size: 38px;
+  line-height: 48px;
+}
 
-  .experience-right-side h2, h3 {
-    line-height: 100%;
-  }
+.experience-right-side h2, h3 {
+  line-height: 100%;
+}
 
-  .experience-right-side h2 {
-    font-size: 48px;
-  }
+.experience-right-side h2 {
+  font-size: 48px;
+}
 
-  .experience-right-side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.experience-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .experience-column {
-    width: 35%;
-    padding: 0.5rem;
-    padding-top: 3%; 
-  }
+.experience-column {
+  width: 35%;
+  padding: 0.5rem;
+  padding-top: 3%; 
+}
 
-  .experience-second-paragraph {
-     padding-left: 15%; 
-  }
-  .experience-right-side img {
-  margin-bottom: 2rem;
+.experience-second-paragraph {
+    padding-left: 15%; 
+}
+.experience-right-side img {
+margin-bottom: 2rem;
 }
   
 .experience::before {
@@ -361,51 +350,51 @@ padding-bottom: 10px;
 }
 
 /* Open hours section */
-  .schedule {
-   min-height: 450px;
-   width: 100%;
-    border-top-right-radius:120px ; 
-    padding: 2rem 10px 2rem 2rem;
-  }
-
-  .grid {
-      gap: 2px;
-  }
-
-  .grid > div {
-  padding: 0.4rem;
+.schedule {
+  min-height: 450px;
+  width: 100%;
+  border-top-right-radius:120px ; 
+  padding: 2rem 10px 2rem 2rem;
 }
-  
+
+.grid {
+    gap: 2px;
+}
+
+.grid > div {
+padding: 0.4rem;
+}
+
 .footnote {
-  padding-top: 4rem;
+padding-top: 4rem;
 }
 
-  /* Services section */
+/* Services section */
 
-  .services {
-    margin: 5rem auto;
-  }
-  .card {
-    width: 100%;
-    max-width: 600px;
-  }
+.services {
+  margin: 5rem auto;
+}
+.card {
+  width: 100%;
+  max-width: 600px;
+}
 
-  .services-section::before{
-  height: 374px;
+.services-section::before{
+height: 374px;
 }
 
 
-    /* Services section svg */
-  .services-section::after {
-  background-position: left 20px top 40px, right -40px top 20px;
-  background-size: 400px auto, 400px auto;
-  }
+/* Services section svg */
+.services-section::after {
+background-position: left 20px top 40px, right -40px top 20px;
+background-size: 400px auto, 400px auto;
+}
 
 
 /* Carousel section*/
 .carousel-container {
-  height: 700px;
-  display: flex;
+height: 700px;
+display: flex;
 }
 
 .slide-image img {
@@ -492,7 +481,6 @@ padding-bottom: 10px;
   top: 0px;
 }
 
-
 }
 
 @media screen and (min-width:1300px){
@@ -508,53 +496,54 @@ padding-bottom: 10px;
 
 @media screen and (min-width: 1500px) {
 
-  /* Experience section */
-  .experience-column{
-    max-width: fit-content;
-  }
-  .experience-left-side h2, .experience-paragraph-and-btn p { 
-    padding-right: 15%;
-  }
-
-   #experience-visit-medevio {
-    margin-right: 15%;
-   }
-
-  .experience-second-paragraph p {
-    padding-right:10%;
-  }
-
-  .experience-left-side {
-    align-items: left;
-  }
-
-    .schedule {
-    max-width: 579px;
-    min-height: 500px;
-  }
-
-  .experience::before {
-  width: 576px;
-  height: 576px;
-  top: 25%;
-  left: 37%;
- 
+/* Experience section */
+.experience-column{
+  max-width: fit-content;
+}
+.experience-left-side h2, .experience-paragraph-and-btn p { 
+  padding-right: 15%;
 }
 
-  /* Services section */
-  .card {
-    height: 300px;
+  #experience-visit-medevio {
+  margin-right: 15%;
   }
 
-      /* Services section svg */
-  .services-section::after {
-  background-position: left 170px top 40px, right -40px top 20px;
-  background-size: 400px auto, 500px auto;
-  }
+.experience-second-paragraph p {
+  padding-right:10%;
+}
 
-  .services-text {
-    left: 390px;
-  }
+.experience-left-side {
+  align-items: left;
+}
+
+  .schedule {
+  max-width: 579px;
+  min-height: 500px;
+}
+
+.experience::before {
+width: 576px;
+height: 576px;
+top: 25%;
+left: 37%;
+
+}
+
+/* Services section */
+.card {
+  height: 300px;
+}
+
+/* Services section svg */
+.services-section::after {
+background-position: left 170px top 40px, right -40px top 20px;
+background-size: 400px auto, 500px auto;
+}
+
+.services-text {
+left: 390px;
+}
+
  /* Carousel section */
  /* Green circle */
 .team-carousel::before {
@@ -563,6 +552,7 @@ padding-bottom: 10px;
   top: 12%;
   right: 25%; 
 }
+
 /* Blue circle */
 .team-carousel::after {
   width: 550px;
@@ -590,58 +580,61 @@ padding-bottom: 10px;
 }
 
 .footer-section h2{
-  font-weight: 800;
+font-weight: 800;
 }
-  
-  .footer-section::before {
-    width: 250px;
-    height: 200px;
-    left: 18%;
-   
-  }
 
-  .footer-section::after {
-   min-width: 350px;
-    min-height: 350px;
-   
-  }
+.footer-section::before {
+width: 250px;
+height: 200px;
+left: 18%;
+
+}
+
+.footer-section::after {
+min-width: 350px;
+min-height: 350px;
+
+}
 
 }
 
 @media (min-width: 1700px) {
 
-  /* Section experience*/
-  
-  .experience::before {
-  width: 576px;
-  height: 576px;
+/* Section experience*/
+
+.experience::before {
+width: 576px;
+height: 576px;
+top: 22%;
+left: 42%;
+
+}
+
+/* Pricing */
+.pricing-circle-text {
+  left: 380px;
   top: 22%;
-  left: 42%;
- 
 }
-  /* Pricing */
-  .circle-text {
-    left: 380px;
-    top: 22%;
-  }
 
-  .circle-svg-left{
-    left: 45%;
-  }
+.circle-svg-left{
+  left: 45%;
+}
 
-  /* Services */
-  .section-title {
-    left: 315px;
-  }
+/* Services */
+.section-title {
+  left: 315px;
+}
 
-  /* Carousel */
- /* Green circle */
+/* Carousel */
+
+/* Green circle */
 .team-carousel::before {
-  width: 500px;
-  height:500px;
-  top: 12%;
-  right: 25%; 
+width: 500px;
+height:500px;
+top: 12%;
+right: 25%; 
 }
+
 /* Blue circle */
 .team-carousel::after {
   width: 640px;
@@ -653,81 +646,80 @@ padding-bottom: 10px;
 /* Footer */
   
 .footer-section{
-  height: 316px;
+height: 316px;
 }
-  .footer-section::before {
-    left: 19%;
-    width: 405px ;
-    height: 405px;
-   
-  }
+.footer-section::before {
+  left: 19%;
+  width: 405px ;
+  height: 405px;
+  
+}
 
-  .footer-section h2 {
-    font-size: 2.7rem;
-  }
+.footer-section h2 {
+  font-size: 2.7rem;
+}
 
-  .footer-section::after {
-   width: 550px;
-    height: 550px;
-    right: 2px;
-   
-  }
+.footer-section::after {
+  width: 550px;
+  height: 550px;
+  right: 2px;
+  
+}
 }
 
 @media (min-width: 2000px) {
 /* Experience section */
 
-  .experience::before {
-  width: 576px;
-  height: 576px;
-  top: 25%;
-  left: 44%;
- 
+.experience::before {
+width: 576px;
+height: 576px;
+top: 25%;
+left: 44%;
+
 }
-  /* Carousel section */
-   /* Green circle */
+/* Carousel section */
+  /* Green circle */
 .team-carousel::before {
-  width: 550px;
-  height:550px;
-  top: 10%;
-  right: 30%; 
+width: 550px;
+height:550px;
+top: 10%;
+right: 30%; 
 }
 /* Blue circle */
 .team-carousel::after {
-  width: 600px;
-  height: 600px;
-  top: 40%;
-  left: 30%;
+width: 600px;
+height: 600px;
+top: 40%;
+left: 30%;
 }
 
 /* Pricing section */
 .circle-svg-left {
-  left: 28%;
-  height: 400px;
+left: 28%;
+height: 400px;
 }
 
 .circle-svg-right{
-  right: -10%;
-  top: 3%;
-  height: 600px;
-  width: auto;
+right: -10%;
+top: 3%;
+height: 600px;
+width: auto;
 }
 }
-
-
 
 /* Carousel mobile */
+
 @media (max-width: 768px) {
-  .carousel-slide {
-    flex-direction: column;
-    text-align: center;
-    
-  }
+.carousel-slide {
+  flex-direction: column;
+  text-align: center;
+  
+}
 .slide-left, .slide-right {
-  padding: 0;
+padding: 0;
 }
 
-  
+
 }
 
 
