@@ -111,17 +111,17 @@ height: 60px;
     url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDA1IiBoZWlnaHQ9IjQwNSIgdmlld0JveD0iMCAwIDQwNSA0MDUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBvcGFjaXR5PSIwLjMiIGN4PSIyMDIuNSIgY3k9IjIwMi41IiByPSIxNTIuNSIgc3Ryb2tlPSIjRTlGRkZFIiBzdHJva2Utd2lkdGg9IjgwIi8+PC9zdmc+"),
     url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjI5IiBoZWlnaHQ9IjYyOSIgdmlld0JveD0iMCAwIDYyOSA2MjkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBvcGFjaXR5PSIwLjMiIGN4PSIzMTQuNSIgY3k9IjMxNC41IiByPSIyNjQuNSIgc3Ryb2tlPSIjRTlGRkZFIiBzdHJva2Utd2lkdGg9IjEwMCIvPjwvc3ZnPg==");
   background-repeat: no-repeat, no-repeat;
-  background-position: left 7px top 80px, right -50px top -30px;
+  background-position: left 7px top 40px, right -50px top 3px;
   background-size: 350px auto, 400px auto;
 }
 
 .services-text{
-  top: 90px;
-  left: 200px;
+  top: 50px;
+  left: 230px;
 }
 
 .services-text h2 {
-padding-bottom: 10px;
+padding-bottom: 8px;
 }
 
 /* Carousel section */
@@ -141,12 +141,14 @@ left: 10%;
 
 .circle-svg-right {
 top: 25%;
-width: 300px;
+width: 350px;
+height:auto ;
+right: -20px;
 }
 
 .pricing-circle-text {
 left: 66%;
-top: 20%;
+top: 25%;
 }
 
 /* News section */
@@ -208,6 +210,18 @@ padding: 2rem;
 .services-section::before{
   height: 20%;
 }
+.services-section::before{
+  max-height: 300px;
+}
+.services-section::after {
+background-position: left 80px top 50px, right -40px top 20px;
+background-size: 300px auto, 400px auto;
+}
+
+.services-text{
+top: 50px;
+left: 280px;
+}
    
 /* Footer */
 .footer-section {
@@ -230,20 +244,6 @@ padding: 2rem;
   height: 250px;
   right: 2px;
   top: 0px;
-}
-
-/* Services section */
-.services-section::before{
-  max-height: 300px;
-}
-.services-section::after {
-background-position: left 20px top 50px, right -40px top 20px;
-background-size: 300px auto, 400px auto;
-}
-
-.services-text{
-top: 50px;
-left: 280px;
 }
 
 }
@@ -420,8 +420,8 @@ display: flex;
 .circle-svg-right {
   width: 450px;
   height: 450px;
-  right: -90px;
-  top: 10px;
+  right: -40px;
+  top: 50px;
 }
 
  .pricing-section {
@@ -536,12 +536,12 @@ left: 37%;
 
 /* Services section svg */
 .services-section::after {
-background-position: left 170px top 40px, right -40px top 20px;
+background-position: left 30px top 40px, right -40px top 20px;
 background-size: 400px auto, 500px auto;
 }
 
 .services-text {
-left: 390px;
+left: 280px;
 }
 
  /* Carousel section */
