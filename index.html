@@ -46,7 +46,7 @@
 
             <ul class="nav-menu">
                 <li><a href="#hours">Ordinační hodiny</a></li>
-                <li><a href="#">Služby</a></li>
+                <li><a href="#services">Služby</a></li>
                 <li><a href="#pricing">Ceník</a></li>
                 <li><a href="#personnel">Náš personál</a></li>
                 <li><a href="#news">Aktuality</a></li>
@@ -61,7 +61,7 @@
     <!-- Experience section -->
     <section class="experience">
             
-        <div class="experience-letf-side">
+        <div class="experience-column experience-left-side">
             <div class="experience-paragraph-and-btn">
                 <h2> Péče o vaše zdraví s lidským přístupem</h2>
                 <p>V naší ordinaci poskytujeme komplexní lékařskou péči pro dospělé. Nejrychleji s námi komunikujete přes Medevio, kde můžete zanechat i vzkaz. </p>
@@ -70,7 +70,7 @@
 
         <!-- Open hours section -->
             <div class="schedule">
-            <h2>Ordinační Doba</h2>
+            <h2 id="hours">Ordinační Doba</h2>
             <div class="blue-rectangle"></div>
             <div class="grid">
                 
@@ -125,10 +125,13 @@
 
         </div>
 
-        <div class="experience-right-side">
+        <div class="experience-column experience-right-side">
             <img src="/imgs/picture-with.stethoscope.jpg" alt="Obrázek stetoskopu položeného na stole před sedícími lékaři">
             <div class="experience-second-paragraph">
-                <h2>12+ </h2><h3>Let zkušeností</h3>
+                <p class="experience-years" aria-label="12 let zkušeností">
+                  <span class="years-number">12+</span>
+                  <span class="years-label">Let zkušeností</span>
+                </p>
                 <p>Na každé vyšetření či návštěvy ordinace je nutné se předem objednat.</p>
                 <p>Přednostně odbavujeme aplikaci Medevio.</p>
 

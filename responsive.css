@@ -299,7 +299,7 @@ padding-bottom: 10px;
   padding-bottom: 2rem;
   }
 
-  .experience-letf-side, .experience-right-side {
+  .experience-left-side, .experience-right-side {
     width: 40%;
     padding: 2rem;
     z-index: 1;
@@ -324,7 +324,7 @@ padding-bottom: 10px;
     align-items: center;
   }
 
-    .experience-letf-side, .experience-right-side {
+    .experience-left-side, .experience-right-side {
     width: 35%;
     padding: 0.5rem;
     padding-top: 3%; 
@@ -500,10 +500,10 @@ padding-bottom: 10px;
 @media screen and (min-width: 1500px) {
 
   /* Experience section */
-  .experience-letf-side, .experience-right-side{
+  .experience-left-side, .experience-right-side{
     max-width: fit-content;
   }
-  .experience-letf-side h2, .experience-paragraph-and-btn p { 
+  .experience-left-side h2, .experience-paragraph-and-btn p { 
     padding-right: 15%;
   }
 
@@ -515,7 +515,7 @@ padding-bottom: 10px;
     padding-right:10%;
   }
 
-  .experience-letf-side {
+  .experience-left-side {
     align-items: left;
   }
 
