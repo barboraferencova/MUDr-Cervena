@@ -9,7 +9,10 @@
   visibility: hidden;
 }
 
-/* Experience section */
+}
+
+@media (max-width: 1150px) {
+  /* Experience section */
 .experience {
  padding-top: 2rem;
   padding-bottom: 2rem;
@@ -371,11 +374,11 @@ padding-bottom: 10px;
   /* Services section */
 
   .services {
-    max-width: 70%;
     margin: 5rem auto;
   }
   .card {
-    width: 344px;
+    width: 100%;
+    max-width: 600px;
   }
 
   .services-section::before{
@@ -531,7 +534,6 @@ padding-bottom: 10px;
 
   /* Services section */
   .card {
-    width: 600PX;
     height: 300px;
   }
 
