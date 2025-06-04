@@ -253,7 +253,7 @@ ul {
 
 .grid {
   display: grid;
-  grid-template-columns: auto repeat(11, 13px);  
+  grid-template-columns: auto repeat(11, fit-content);  
   align-items: center;
   gap: 1px;
   overflow-x: auto;

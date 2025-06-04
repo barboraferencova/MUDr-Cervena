@@ -1,11 +1,23 @@
                                                     /* Mini mobile under 320px */
 @media (max-width: 580px) {
+  /* Footer section */
   .footer-section::before, .footer-section::after {
     display: none;
   }
 
   .circle-svg-right{
   visibility: hidden;
+}
+
+/* Experience section */
+.experience {
+ padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.experience img {
+  max-height: 300px; 
+  padding-top: 5rem;
 }
 }
 
@@ -63,7 +75,7 @@
 
 
 .services-section {
- padding: 4rem 2rem 0;
+ padding: 4rem 2rem;
   }
 
 
