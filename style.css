@@ -351,6 +351,8 @@ ul {
       padding: 2rem 1rem;
       background: var(--white-color);
       position: relative;
+      z-index: 1;
+      overflow: hidden;
     }
 
     .services-section h2 {
@@ -364,7 +366,7 @@ ul {
 }
 
 
-    .services-section::before {
+.services-section::before {
   content: '';
   position: absolute;
   top: 0;
@@ -373,6 +375,22 @@ ul {
   width: 100%;
   background: var(--primary500-cyan);
   z-index: 0;
+}
+
+.services-section::after{
+content: '';
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background-image: 
+    url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjI5IiBoZWlnaHQ9IjYyOSIgdmlld0JveD0iMCAwIDYyOSA2MjkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBvcGFjaXR5PSIwLjMiIGN4PSIzMTQuNSIgY3k9IjMxNC41IiByPSIyNjQuNSIgc3Ryb2tlPSIjRTlGRkZFIiBzdHJva2Utd2lkdGg9IjEwMCIvPjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  background-position: right -8px top 10px;
+  background-size: 400px auto;
+  z-index: 1;
+  pointer-events: none;
 }
 
     .services {
@@ -750,8 +768,6 @@ ul {
   display: inline-flex;
   gap: 0.4rem;
 }
-
-
 
 .news-icon svg {
   width: 1rem;
