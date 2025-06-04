@@ -1,13 +1,22 @@
                                                     /* Mini mobile under 320px */
 @media (max-width: 580px) {
+
+
+  .circle-svg-right{
+  visibility: hidden;
+}
   /* Footer section */
   .footer-section::before, .footer-section::after {
     display: none;
   }
 
-  .circle-svg-right{
-  visibility: hidden;
-}
+  .footer-section span, .footer-section p {
+    font-size: 1rem;
+  }
+
+  .footer-section h2 {
+    font-size: 1.7rem;
+  }
 
 }
 
@@ -118,7 +127,7 @@ font-size: 1.3rem;
   left: 200px;
 }
 
-.services-text h3 {
+.services-text h2 {
 padding-bottom: 10px;
 }
 

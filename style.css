@@ -132,7 +132,6 @@ ul {
   background-color: var(--primary100-background-color-experience-section);
 }
 
-
 .experience-column{
   max-width: 60%;
   display: flex;
@@ -183,8 +182,6 @@ ul {
   color: var(--secondary500-blue-color);
 }
 
-
-
 .experience-paragraph-and-btn {
   display: flex;
   flex-direction: column;
@@ -219,9 +216,7 @@ ul {
 }
 
 
-
 /* Open hours section */
-
 
 .schedule {
   background: var(--white-color);
@@ -378,14 +373,14 @@ ul {
   padding-bottom: 30px;
 }
 
-.services-text h3 {
+.services-text h2 {
   color: var(--white-color);
   font-family: var(--font-blue-hadings-jost);
   font-size: 1.8rem;
   font-weight: 500;
   padding-bottom: 3px;
+  padding-top: 2rem;
 }
-
 
 .services-section::before {
   content: '';
@@ -559,7 +554,6 @@ content: '';
   padding-right: 20px;
 }
 
-
 .carousel-track {
   display: flex;
   overflow: hidden;
@@ -667,7 +661,6 @@ content: '';
   max-height: 90%;
   top: 10%;
   left: -100px; 
-  
 }
 
 .circle-text {
