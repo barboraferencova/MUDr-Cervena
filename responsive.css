@@ -45,35 +45,7 @@
 @media screen and (min-width: 768px) and (max-width: 1150px) {
  
 /* Nav menu */
-  .navbar {
-    position: static;
-    align-items: stretch;
-    padding: 1.5rem 2rem;
-    width: 100%;
-  }
 
-  .logo {
-    font-size: 1.75rem;
-    color: var(--primary500-cyan);
-    font-weight: bold;
-  }
-
-  .nav-menu {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    margin: 1rem 0;
-  }
-
-  .visit-medevio-nav-btn{
-     align-self: center;
-      position: absolute;
-  }
-
-  #open-sidebar-button,
-  #close-sidebar-button {
-    display: none;
-  }
 
   /* Experience */
   .schedule {

@@ -14,13 +14,6 @@ function updateNavbar() {
     openSidebarBtn.style.display = "none";
     closeSidebarBtn.style.display = "none";
 
-  } else if (width >= 768) {
-    // Tablet
-    navbar.classList.remove("show");
-    navbar.removeAttribute("inert");
-    openSidebarBtn.style.display = "none";
-    closeSidebarBtn.style.display = "none";
-
   } else {
     // Mobil
     navbar.classList.remove("show");
