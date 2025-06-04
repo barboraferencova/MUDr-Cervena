@@ -309,6 +309,15 @@ padding-bottom: 10px;
     align-items: center;
   }
 
+    .experience-letf-side, .experience-right-side {
+    width: 35%;
+    padding: 0.5rem;
+    padding-top: 3%; 
+  }
+
+  .experience-second-paragraph {
+     padding-left: 15%; 
+  }
   .experience-right-side img {
   margin-bottom: 2rem;
 }
@@ -342,16 +351,10 @@ padding-bottom: 10px;
   .grid > div {
   padding: 0.4rem;
 }
-  /* Experience section */
-  .experience-letf-side, .experience-right-side {
-    width: 35%;
-    padding: 0.5rem;
-    padding-top: 3%; 
-  }
-
-  .experience-second-paragraph {
-     padding-left: 15%; 
-  }
+  
+.footnote {
+  padding-top: 4rem;
+}
 
   /* Services section */
 
@@ -468,9 +471,23 @@ padding-bottom: 10px;
 
 }
 
+@media screen and (min-width:1300px){
+  
+  .experience::before {
+  width: 576px;
+  height: 576px;
+  top: 25%;
+  left: 35%;
+ 
+}
+}
+
 @media screen and (min-width: 1500px) {
 
   /* Experience section */
+  .experience-letf-side, .experience-right-side{
+    max-width: fit-content;
+  }
   .experience-letf-side h2, .experience-paragraph-and-btn p { 
     padding-right: 15%;
   }
@@ -489,8 +506,16 @@ padding-bottom: 10px;
 
     .schedule {
     max-width: 579px;
-    min-height: 548px;
+    min-height: 500px;
   }
+
+  .experience::before {
+  width: 576px;
+  height: 576px;
+  top: 25%;
+  left: 37%;
+ 
+}
 
   /* Services section */
   .card {
@@ -564,6 +589,16 @@ padding-bottom: 10px;
 }
 
 @media (min-width: 1700px) {
+
+  /* Section experience*/
+  
+  .experience::before {
+  width: 576px;
+  height: 576px;
+  top: 22%;
+  left: 42%;
+ 
+}
   /* Pricing */
   .circle-text {
     left: 380px;
@@ -620,6 +655,16 @@ padding-bottom: 10px;
 }
 
 @media (min-width: 2000px) {
+/* Experience section */
+
+  .experience::before {
+  width: 576px;
+  height: 576px;
+  top: 25%;
+  left: 44%;
+ 
+}
+  /* Carousel section */
    /* Green circle */
 .team-carousel::before {
   width: 550px;
@@ -632,7 +677,20 @@ padding-bottom: 10px;
   width: 600px;
   height: 600px;
   top: 40%;
-  left: 27%;
+  left: 30%;
+}
+
+/* Pricing section */
+.circle-svg-left {
+  left: 28%;
+  height: 400px;
+}
+
+.circle-svg-right{
+  right: -10%;
+  top: 3%;
+  height: 600px;
+  width: auto;
 }
 }
 
