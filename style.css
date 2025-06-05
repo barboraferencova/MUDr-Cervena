@@ -252,15 +252,18 @@ ul {
 
 .grid {
   display: grid;
-  grid-template-columns: auto repeat(11, fit-content);  
+  grid-template-columns: auto repeat(11, fit-content(150px));
+
+
   align-items: center;
   gap: 1px;
   overflow-x: auto;
 }
 
-.grid > div {
+.grid div {
   padding: 0.2rem;
 }
+
 
 .invisible {
   visibility: hidden;

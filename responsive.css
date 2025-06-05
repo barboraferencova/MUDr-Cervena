@@ -440,7 +440,7 @@ display: flex;
 }
 
 .news-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .news-button-wrapper {
   margin-top: 4rem;
@@ -451,7 +451,7 @@ display: flex;
 }
 
 .news-date {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .news-container {
@@ -644,6 +644,23 @@ right: 25%;
   height: 640px;
   top: 40%;
   left: 20%;
+}
+
+/* News section */
+.news-title {
+  font-size: 1.3rem;
+}
+
+.news-link{
+  font-size: 1.2rem;
+}
+
+.news-date {
+  font-size: 1.1rem;
+}
+
+.news-text p {
+  font-size: 1.1rem;
 }
 
 /* Footer */
