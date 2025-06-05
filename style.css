@@ -48,7 +48,7 @@ ul {
   transition: right 0.3s ease-in-out;
   z-index: 1000;
   background-color: var(--white-color);
-  font-family: var(--font-blue-hadings);
+  font-family: var(--font-blue-hadings-jost);
 }
 
 .navbar.show {
@@ -194,7 +194,7 @@ ul {
 
 .experience p {
   text-align: left;
-  font-family: var(--font-main);
+  font-family: var(--font-main-space);
   font-weight: 400;
   color: var(--grey300-paragraphs-color);
   line-height: 28px;
@@ -865,6 +865,3 @@ content: '';
     
     background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='405'%20height='316'%20viewBox='0%200%20405%20316'%20fill='none'%3E%3Ccircle%20opacity='0.1'%20cx='202.5'%20cy='157.5'%20r='152.5'%20stroke='%23E9FFFE'%20stroke-width='100'/%3E%3C/svg%3E");
 }
-
-/*Cleaning*/
-
