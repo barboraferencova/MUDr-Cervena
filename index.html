@@ -62,7 +62,7 @@
     <!-- Experience section -->
     <section class="experience">
             
-        <div class="experience-column experience-left-side">
+        <div class="experience-column experience-left-side" id="hours">
             <div class="experience-paragraph-and-btn">
                 <h2> Péče o vaše zdraví s lidským přístupem</h2>
                 <p>V naší ordinaci poskytujeme komplexní lékařskou péči pro dospělé. Nejrychleji s námi komunikujete přes Medevio, kde můžete zanechat i vzkaz. </p>
@@ -71,7 +71,7 @@
 
         <!-- Open hours section -->
             <div class="schedule">
-            <h2 id="hours">Ordinační Doba</h2>
+            <h2>Ordinační Doba</h2>
             <div class="blue-rectangle"></div>
             <div class="grid">
                 
@@ -127,7 +127,10 @@
         </div>
 
         <div class="experience-column experience-right-side">
+          <picture>
+            <source srcset="imgs\picture-with.stethoscope.webp" type="image/webp">
             <img src="/imgs/picture-with.stethoscope.jpg" alt="Obrázek stetoskopu položeného na stole před sedícími lékaři">
+           </picture>
             <div class="experience-second-paragraph">
                 <p class="experience-years" aria-label="12 let zkušeností">
                   <span class="years-number">12+</span>
@@ -146,7 +149,7 @@
   <!-- Services section -->
     <section class="services-section" aria-labelledby="services-heading">
       <div class="services-text">
-        <h2>Služby</h2>
+        <h2 id="services">Služby</h2>
         <div class="white-heading-underline"></div>
         </div>
 
@@ -310,7 +313,7 @@
 
   <!-- Carousel section -->
    <section class="team-carousel">
-  <div class="carousel-container">
+  <div class="carousel-container" id="personnel">
     <button class="arrow-left">
         <svg width="27" height="57" viewBox="0 0 30 59" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M29 1L1 29.5L29 58" stroke="#00C0B9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -327,7 +330,7 @@
           <h2 class="name">Denisa <br> Kalíková</h2>
         </div>
         <div class="slide-image">
-          <img src="/imgs/doctor Denisa.png" alt="Denisa Kalíková">
+          <img src="/imgs/doctor Denisa.png" alt="Denisa Kalíková" loading="lazy">
         </div>
         <div class="slide-right">
           <p>Jsem zdravotní sestra s dlouholetou praxí<br>u nás i v zahraničí. Lorem ipsum.</p>
@@ -379,7 +382,7 @@
     <!-- Left circle -->
     <div class="pricing-circle-left">
         <div class="pricing-circle-text">
-            <h2>Ceník</h2>
+            <h2 id="pricing">Ceník</h2>
             <div class="white-heading-underline"></div>
         </div>
         <svg class="circle-svg-left"  width="405" height="358" viewBox="0 0 405 358" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -397,11 +400,14 @@
 
    <!-- Section news -->
     <section class="news-section">
-  <h2 class="section-title">Aktuality</h2>
+  <h2 class="section-title" id="news">Aktuality</h2>
   <div class="news-container">
     <article class="news-card">
-      <img src="/imgs/news-section-injection.png" alt="Aktualita" class="news-image" loading="lazy">
-      <p class="news-date">25.03.2025</p>
+      <picture>
+        <source srcset="imgs\news-section-injection.webp" type="image/webp">
+        <img src="/imgs/news-section-injection.png" alt="Aktualita" class="news-image" loading="lazy">
+      </picture>
+        <p class="news-date">25.03.2025</p>
       <h3 class="news-title">Čas očkování lorem ipsum dolor samet dva</h3>
       <p class="news-text">Lorem ipsum dolor sit amet consectetur. Ipsum quis tincidunt id pharetra consequat eget posuere.</p>
       <a href="#" class="news-link">Číst více
@@ -414,7 +420,10 @@
     </article>
 
     <article class="news-card">
-      <img src="/imgs/news-section-stethoscope.png" alt="Aktualita" class="news-image" loading="lazy">
+      <picture>
+        <source srcset="imgs\news-section-stethoscope.webp" type="image/webp">
+        <img src="/imgs/news-section-stethoscope.png" alt="Aktualita" class="news-image" loading="lazy">
+      </picture>
       <p class="news-date">21.03.2025</p>
       <h3 class="news-title">Preventivní lorem ipsum dolor samet dva</h3>
       <p class="news-text">Lorem ipsum dolor sit amet consectetur. Ipsum quis tincidunt id pharetra consequat eget posuere.</p>
@@ -428,7 +437,10 @@
     </article>
 
     <article class="news-card">
-      <img src="imgs/news-section-injection.png" alt="Aktualita" class="news-image" loading="lazy">
+      <picture>
+        <source srcset="imgs\news-section-injection.webp" type="image/webp">
+        <img src="imgs/news-section-injection.png" alt="Aktualita" class="news-image" loading="lazy">
+      </picture>
       <p class="news-date">12.03.2025</p>
       <h3 class="news-title">Čas očkování lorem ipsum dolor samet dva</h3>
       <p class="news-text">Lorem ipsum dolor sit amet consectetur. Ipsum quis tincidunt id pharetra consequat eget posuere.</p>
