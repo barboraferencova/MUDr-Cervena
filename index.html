@@ -313,9 +313,10 @@
   </section>
 
   <!-- Carousel section -->
-   <section class="team-carousel">
+   <section class="team-carousel" role="region" aria-label="Náš personál">
+    
   <div class="carousel-container" id="personnel">
-    <button class="arrow-left">
+    <button class="arrow-left" aria-label="Předchozí člen týmu">
         <svg width="27" height="57" viewBox="0 0 30 59" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M29 1L1 29.5L29 58" stroke="#00C0B9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -325,10 +326,10 @@
 
     <div class="carousel-track">
       <!-- Slide 1 -->
-      <div class="carousel-slide active">
+      <div class="carousel-slide active" role="group" aria-labelledby="slide-denisa-kalikova">
         <div class="slide-left">
           <p class="role">Zdravotní sestra</p>
-          <h2 class="name">Denisa <br> Kalíková</h2>
+          <h2 class="name" id="slide-denisa-kalikova">Denisa <br> Kalíková</h2>
         </div>
         <div class="slide-image">
           <img src="/imgs/doctor Denisa.png" alt="Denisa Kalíková" loading="lazy">
@@ -346,7 +347,7 @@
       </div>
 
       <!-- Slide 2 -->
-      <div class="carousel-slide">
+      <div class="carousel-slide" role="group" aria-labelledby="slide-denisa-lalikova">
         <div class="slide-left">
           <p class="role">Zdravotní sestra</p>
           <h2 class="name">Denisa <br> Lalíková</h2>
@@ -369,7 +370,7 @@
       <!-- If more people in carousel needed - put them here -->
     </div>
 
-    <button class="arrow-right">
+    <button class="arrow-right" aria-label="Další člen týmu">
         <svg width="27" height="57" viewBox="0 0 30 59" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1 1L29 29.5L1 58" stroke="#00C0B9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
